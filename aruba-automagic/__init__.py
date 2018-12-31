@@ -9,7 +9,7 @@ try:
     import pyttsx3
     enable_speech = True
 except ImportError:
-    enable_speech = True
+    enable_speech = False
     
 
 def check_prompt(AP):
